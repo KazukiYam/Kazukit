@@ -1,0 +1,415 @@
+// color name
+$base: 
+#fcfcfc;
+$base2:
+#f5f5f5;
+$main: 
+#333333;
+$accent: 
+#00a3cc;
+$accent2: 
+#e6e6e6;
+$special:
+#ff9999;
+
+// fonts
+$title: 'Orbitron', sans-serif;
+
+
+// pc responsive 1071px~ 
+@media screen and (min-width:1071px) {
+
+  .sp {
+    display: none;
+  }
+
+
+  // Introduction
+  .introduction {
+    
+    .introduction-text {
+      width: 50%;
+
+      h3:first-child {
+        margin-top: 0;
+        padding: 0;
+      }
+
+      .btn {
+        letter-spacing: .1rem;
+        width: 100%;
+      }
+
+    }
+
+    .introduction-image {
+      width: 50%;
+      margin-right: 2rem;
+    }
+
+  }
+
+  // Introduction
+
+  // Profile
+
+  // Profile
+
+  // Skills
+ 
+  // Skills
+
+  // Services 
+  .services {
+    
+    .service-flex {
+      .service-item:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+
+    .btn {
+      letter-spacing: .1rem;
+    }
+  }
+  // Services 
+
+}
+
+// ipad responsive 691~1070px
+@media screen and (min-width:691px)and(max-width:1070px) {
+
+  .pc {
+    display: none;
+  }
+
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  // main
+  .main-text {
+
+    h1 {
+      font-size: 4rem;
+      margin: 0 auto;
+    }
+
+    ul {
+      margin: 1rem 0;
+      padding-left: 1rem;
+    }
+
+    .tlt li {
+      font-size: 4rem;
+      margin: 2rem 0;
+    }
+
+    h2 {
+      font-size: 3rem;
+      line-height: 1.2;
+      margin: 3rem auto;
+    }
+  }
+
+  // main
+
+
+  // introduction
+  .introduction {
+    text-align: center;
+    
+    h3 {
+      width: 30%;
+    }
+
+    p {
+      text-align: left;
+      margin: 1rem auto;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      letter-spacing: .1rem;
+    }
+  }
+  // introduction
+  // Profile
+
+
+  // Profile
+
+  // Services 
+  .services {
+
+    .service-flex {
+      margin-top: 2rem;
+      
+      .service-item {
+        width: calc(50% - 50px / 2);
+      }
+
+      .service-item:nth-child(2), .service-item:nth-child(3) {
+        margin-right: 0;
+      }
+    }
+
+    .btn {
+      letter-spacing: .3rem;
+    }
+  }
+  // Services 
+}
+
+// sp responsive ~690px
+@media screen and (max-width:690px) {
+
+  .pc {
+    display: none;
+  }
+
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem auto;
+    width: 100%;
+    background-color: $accent;
+    color: $base;
+    border-radius: .3rem;
+    border: none;
+    font-size: 1.1rem;
+  }
+
+  p, li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .container {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .section-title {
+    padding-top: 1rem;
+  }
+
+  .title {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    border-bottom: .1rem solid $accent;
+    display: inline-block;
+  }
+
+  .heading-underline {
+    display: none;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  // main-visual
+  .main {
+    background-position: 75%;
+    background-attachment: scroll;
+
+    .main-text {
+
+      h1 {
+        font-size: 3rem;
+        margin: 0 auto;
+      }
+
+      ul {
+        margin: 1rem 0;
+        padding-left: 1rem;
+      }
+
+      .tlt li {
+        font-size: 3.5rem;
+        margin: 2rem 0;
+      }
+
+      h2 {
+        line-height: 1.2;
+        margin: 1.5rem auto;
+      }
+    }
+
+  } 
+
+
+
+  // introduction
+
+  .introduction {
+    
+    p {
+      margin-top: 0;
+    }
+
+    .btn {
+      margin-top: 3rem;
+      letter-spacing: .1rem;
+    }
+  }
+
+
+
+ // Profile
+  .profile {
+
+    .profile-flex {
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .profile-image {
+        width: 70%;
+      }
+
+      .profile-text {
+        width: 100%;
+
+        .name {
+          background-color: $base2;
+          color: $accent;
+          font-size: 2rem;
+        }
+    
+        h3:first-child {
+          margin-top: 2rem;
+        }
+
+        p {
+          margin: 1rem 0;
+        }
+
+        .goal {
+          display: block;
+          width: 100%;
+          margin: .5rem auto;
+          text-align: center;
+        }
+      }
+    }
+  }
+  // Profile
+
+  // Skills
+
+  .skills {
+
+    .skill-box {
+      margin-bottom: 0;
+      
+      .skill-item {
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+
+    .human-skill {
+
+      .human-detail {
+          
+          .human-box {
+            width: 100%;
+            box-sizing: border-box;
+            padding-bottom: 0;
+
+            .h4-title {
+              color: $main;
+              background-color: $base;
+              padding: 0;
+              border-bottom: solid .2rem $accent;
+              font-size: 1.1rem;
+              margin-bottom: 1rem;
+              margin-top: 0;
+              border-radius: 0;
+            }
+          }
+          .human-flex {
+            flex-wrap: wrap;
+          }
+        
+      }
+    }
+  }
+  // Skills
+
+  // Services 
+  .services {
+
+    .service-flex {
+      
+      .service-item {
+        margin: .5rem 0;
+        padding: .5rem;
+        width: 100%;
+        
+        h5 {
+          margin: 1rem 0 0;
+        }
+      }
+    }
+    .btn {
+      letter-spacing: .3rem;
+    }
+  }
+  // Services 
+
+  // Works
+
+  .works {
+
+    .work-item {
+      width: 100%;
+      margin-bottom: 1rem;
+
+      p, h4 {
+        margin: 0 0 .5rem;
+      }
+    }
+  }
+  // Works
+
+  // contact
+  .contact {
+    .contact-form {
+      input {
+        height: 2.5rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+  // contact
+
+  // footer 
+  footer {
+
+    p {
+      font-size: .8rem;
+    }
+  }
+  // footer 
+
+}

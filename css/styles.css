@@ -208,7 +208,7 @@ header .drawer-hamburger-icon:before {
   margin: 0;
   padding: 2rem 1rem 1rem;
   height: 100vh;
-  background-image: url(/img/main-visual.jpg);
+  background-image: url(../img/main-visual.jpg);
   background-size: cover;
   background-position: right;
   background-attachment: fixed;
@@ -523,7 +523,7 @@ header .drawer-hamburger-icon:before {
 }
 
 .contact {
-  background-image: url(img/profile5.JPG);
+  background-image: url(../img/profile5.JPG);
   background-size: cover;
   background-position: center;
   padding: 1rem 0 2rem;
